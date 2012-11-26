@@ -1,0 +1,7 @@
+1612|10:04 <Bee_Boo|Wrk> pricemz ten bebop je potreba znova strihnout
+1612|10:07 <Jarnik> vyborne, diky
+1612|10:07 <Bee_Boo|Wrk> bebop je jedenacty dil cca devata minuta
+1612|10:07 <Jarnik> zkusim to nejak oriznout a pak jeste ukazu na konzultaci
+1612|10:07 <Bee_Boo|Wrk> a ten Death Note je ke konci scena kdy jsou mokri na schodech
+
+mencoder funsub01-slayers.avi -o fun.flv -of lavf -oac mp3lame -ovc lavc -lavcopts vcodec=flv:vbitrate=200:keyint=75 -lavfopts i_certify_that_my_video_stream_does_not_use_b_frames -srate 22050 −vf scale −zoom −xy 320 -lameopts abr:br=28:mode=3
